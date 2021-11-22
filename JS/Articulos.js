@@ -1,4 +1,4 @@
-var UrlGetArticulos = 'http://localhost:80/G4_19/controller/articulos.php?op=GetArticulos';
+var UrlGetArticulos = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=GetArticulos';
 var UrlPostArticulo = 'http://localhost:80/G4_19/controller/articulos.php?op=InsertArticulos';
 var UrlGetUno = 'http://localhost:80/G4_19/controller/articulos.php?op=GetUno';
 var UrlPutArticulo = 'http://localhost:80/G4_19/controller/articulos.php?op=UpdateArticulos';
