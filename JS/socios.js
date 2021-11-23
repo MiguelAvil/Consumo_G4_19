@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 var UrlGetSocios = 'http://localhost:80/G4_19_considilacion_proyecto/Socios/controller/socios_negocio.php?op=GetSocios_negocio';
-=======
-var UrlGetSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=GetSocios_negocio';
->>>>>>> 7bb500a550a6fd5be698b19daf0f4bd38369f59a
 var UrlPostSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=InsertSocio_negocio';
 var UrlDeleteSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=DeleteSocio_negocio';
 var UrlGetUno = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=GetUno';
