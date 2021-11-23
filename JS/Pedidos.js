@@ -1,8 +1,8 @@
-var UrlGetPedidos = 'http://127.0.0.1:90/G4_19/controller/pedidos.php?op=GetPedidos';
-var UrlPostPedido = 'http://127.0.0.1:90/G4_19/controller/pedidos.php?op=InsertPedidos';
-var UrlGetUno = 'http://127.0.0.1:90/G4_19/controller/pedidos.php?op=GetUno';
-var UrlPutPedidos = 'http://127.0.0.1:90/G4_19/controller/pedidos.php?op=UpdatePedidos';
-var UrlDeletePedido = 'http://127.0.0.1:90/G4_19/controller/pedidos.php?op=DeletePedidos';
+var UrlGetPedidos = 'http://localhost:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=GetPedidos';
+var UrlPostPedido = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=InsertPedidos';
+var UrlGetUno = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=GetUno';
+var UrlPutPedidos = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=UpdatePedidos';
+var UrlDeletePedido = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=DeletePedidos';
 
 $(document).ready(function(){
     CargarPedidos();
@@ -49,7 +49,8 @@ function AgregarPedido(){
         SUB_TOTAL: $('#SUB_TOTAL').val(),
         TOTAL_ISV: $('#TOTAL_ISV').val(),
         TOTAL: $('#TOTAL').val(),
-        FECHA_ENTREGA: $('#FECHA_ENTREGA').val()
+        FECHA_ENTREGA: $('#FECHA_ENTREGA').val(),
+        ESTADO: $('#ESTADO').val()
     }
 
     var datospedidosjson = JSON.stringify(datospedidos);
