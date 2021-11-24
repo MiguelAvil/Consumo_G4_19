@@ -1,8 +1,8 @@
-var UrlGetPedidos = 'http://localhost:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=GetPedidos';
-var UrlPostPedido = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=InsertPedidos';
-var UrlGetUno = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=GetUno';
-var UrlPutPedidos = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=UpdatePedidos';
-var UrlDeletePedido = 'http://127.0.0.1:90/G4_19_considilacion_proyecto/Pedidos/controller/pedidos.php?op=DeletePedidos';
+var UrlGetPedidos = 'http://34.68.196.220:90/G4_19/Pedidos/controller/pedidos.php?op=GetPedidos';
+var UrlPostPedido = 'http://34.68.196.220:90/G4_19/Pedidos/controller/pedidos.php?op=InsertPedidos';
+var UrlGetUno = 'http://34.68.196.220:90/G4_19/Pedidos/controller/pedidos.php?op=GetUno';
+var UrlPutPedidos = 'http://34.68.196.220:90/G4_19/Pedidos/controller/pedidos.php?op=UpdatePedidos';
+var UrlDeletePedido = 'http://34.68.196.220:90/G4_19/Pedidos/controller/pedidos.php?op=DeletePedidos';
 
 $(document).ready(function(){
     CargarPedidos();
