@@ -1,8 +1,8 @@
-var UrlGetArticulos = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=GetArticulos';
-var UrlPostArticulo = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=InsertArticulos';
-var UrlGetUno = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=GetUno';
-var UrlPutArticulo = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=UpdateArticulos';
-var UrlDaleteArticulo = 'http://localhost:80/G4_19_considilacion_proyecto/Articulos/controller/articulos.php?op=DeleteArticulos';
+var UrlGetArticulos = 'http://34.68.196.220:90/G4_19/Articulos/controller/articulos.php?op=GetArticulos';
+var UrlPostArticulo = 'http://34.68.196.220:90/G4_19/Articulos/controller/articulos.php?op=InsertArticulos';
+var UrlGetUno = 'http://34.68.196.220:90/G4_19/Articulos/controller/articulos.php?op=GetUno';
+var UrlPutArticulo = 'http://34.68.196.220:90/G4_19/Articulos/controller/articulos.php?op=UpdateArticulos';
+var UrlDaleteArticulo = 'http://34.68.196.220:90/G4_19/Articulos/controller/articulos.php?op=DeleteArticulos';
 // cuando el documento(pagina este lista) aparecen los datos de articulos
 $(document).ready(function(){
     CargarArticulos();
