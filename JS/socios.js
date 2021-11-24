@@ -1,9 +1,8 @@
-
-var UrlGetSocios = 'http://localhost:80/G4_19_considilacion_proyecto/Socios/controller/socios_negocio.php?op=GetSocios_negocio';
-var UrlPostSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=InsertSocio_negocio';
-var UrlDeleteSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=DeleteSocio_negocio';
-var UrlGetUno = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=GetUno';
-var UrlPutSocios = 'http://localhost:80/G4_19/controller/Socios_negocio.php?op=UpdateSocio_negocio';
+var UrlGetSocios = 'http://34.68.196.220:90/G4_19/Socios/controller/socios_negocio.php?op=GetSocios_negocio';
+var UrlPostSocios = 'http://34.68.196.220:90/G4_19/Socios/controller/Socios_negocio.php?op=InsertSocio_negocio';
+var UrlDeleteSocios = 'http://34.68.196.220:90/G4_19/Socios/controller/Socios_negocio.php?op=DeleteSocio_negocio';
+var UrlGetUno = 'http://34.68.196.220:90/G4_19/Socios/controller/Socios_negocio.php?op=GetUno';
+var UrlPutSocios = 'http://34.68.196.220:90/G4_19/Socios/controller/Socios_negocio.php?op=UpdateSocio_negocio';
 
 
 $(document).ready(function () {
