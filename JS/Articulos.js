@@ -142,5 +142,5 @@ function EliminarArticulo(idarticulo){
         }
     });
     alert("Articulo Eliminado");
-    CargarArticulo();
+    CargarArticulos();
 }
