@@ -144,4 +144,5 @@ function EliminarPedido(IdPedido){
         }
     });
     alert("Pedido Eliminado")
+    CargarPedidos();
 }
